@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* COR DE TODA PÁGINA */
+body{
+    background: #000000;
+}
+
+
+/* CABEÇALHO */
+header{
+    justify-content: center;
+    display: flex;
+    background-color: #FFC8C8;
+    font-size: 6rem;
+    text-align: center;
+}
+
+header div.logo{
+    justify-content: flex-start;
+    display: flex;
+    margin: 2%;
+}
+/* FIM DO CABEÇALHO */
+
+
+/* BARRA DE NAVEGAÇÃO */
+nav{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FF9999;
+    text-decoration: none;
+    font-size: 3rem;
+    height: 70px;
+    padding: 30px;
+}
+
+nav a{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+    padding: 50px;
+}
+/* FIM DA BARRA DE NAVEGAÇÃO */
+
+
+/* FRASE COMPLETIVA */
+.frase{
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+    color: #FFC8C8;
+}
+
+
+/* ÍNICIO DA CAIXA COM A IMAGEM E UM POUCO SOBRE A BANDA */
+.info{
+    height: 900px;
+}
+
+article{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 2%;
+}
+
+.sobre{
+    color: #F3DFE3;
+    font-size: 30px;
+    text-align: center;
+    margin: 3%;
+    padding: 3%;
+}
+/* FIM DA CAIXA COM AS INFORMAÇÕES */
+
+
+/* ÍNICIO DA CAIXA COM MÚSICAS E CLIPES DA BANDA */
+section{
+    background-color: #F3DFE3;
+    padding: 30px;
+}
+
+/* TÍTULOS E MÚSICAS */
+
+.musicasFavoritas{
+    height: 900px;
+}
+
+h3{
+    text-align: center;
+    font-size: 4rem;
+    padding: 1%;
+    color: #FF9999;
+}
+
+.musicas{
+    justify-content: center;
+    display: flex;
+    margin: 1%;
+}
+
+aside{
+    justify-content: center;
+    display: flex;
+}
+
+.tituloMus{
+    text-align: center;
+    font-size: 20px;
+    color: #FF9999;
+    padding: 5px;
+}
+
+div{
+    padding: 20px;
+}
+
+.music1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #F1F1F1;
+    height: 15px;
+}
+
+.music2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #F1F1F1;
+    height: 15px;
+}
+
+.music3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #F1F1F1;
+    height: 15px;
+}
+
+.music4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #F1F1F1;
+    height: 15px;
+}
+
+/* TÍTULOS E CLIPES */
+
+h1{
+    background: #F3DFE3;
+    text-align: center;
+    font-size: 4rem;
+    color: #FF9999;
+}
+
+.clips{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.tituloClip{
+    text-align: center;
+    font-size: 25px;
+    color: #FF9999;
+    padding: 15px;
+}
+/* FIM DA CAIXA COM MÚSICAS E CLIPES */
+
+
+/* ÍNICIO DO FOOTER */
+h4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #F3DFE3;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    background: #FF9999;
+    height: 70px;
+}
+/* FIM DO FOOTER */

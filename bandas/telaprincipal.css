@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bandas-equipe{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+
+  
+}
+div{
+    background-color: aqua;
+}
+section{
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    grid-template-areas: 
+    'banda-alana banda-alana'
+    'banda-jailson banda-jailson'
+    'banda-mayara banda-mayara'
+    'banda-lavinia banda-lavinia';
+}
+/* inicio alana */
+#banda-alana{
+    background-image: url(alana/img/banda-alana.jfif);
+    opacity: 3;
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+}
+
+/* fim alana */
+
+
+/* inicio jailson */
+#banda-jailson{
+    background-image: url(jailsonnasc/img/tribo\ da\ periferia.jpg);
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+}
+
+
+.img-redondo{
+    width: 103px;
+    height: 103px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 5rem;
+}
+.caixa-centro{
+   margin-top: 14rem;
+   display: flex;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;    
+}
+
+.nome-banda, 
+.nome-aluno{
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 14px;
+     font-size: 20px;
+     font-family: sans-serif;
+}
+/* fim jailson */
+
+
+/* inicio mayara */
+#banda-mayara{
+    background-image: url(mayara/assets/banda-mayara.jpg);
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+} 
+/* fim mayara */
+
+
+/* inicio lavinia */
+#banda-lavinia{
+    background-image: url(lavinia/img/Fota\ da\ banda.webp);
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+}
+/* fim lavinia */

@@ -1,0 +1,84 @@
+header {
+    background-color: rgb(180, 176, 176);
+}
+
+header .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.body {
+    background-color: #5a4b4a;
+}
+
+.nav-link:hover {
+    background-color: rgb(165, 159, 159);
+    border-radius: 10px;
+}
+
+#sobre {
+    background-color: #5a4b4a;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#musicas {
+    background-color: rgb(180, 176, 176);
+    font-size: 24px;
+}
+
+.musicas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .musicas {
+        grid-template-columns: 1fr;
+    }
+}
+
+.musicas p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+button {
+    width: 50px;
+    border: none;
+}
+
+#capaAlbum {
+    border-radius: 10rem;
+}
+
+#likeButton {
+    color: black;
+    font-size: 25px;
+
+}
+
+#likeButton.liked {
+    color: red;
+}
+
+#clipes {
+    background-color: #5a4b4a;
+}
+
+#clipes h1 {
+    color: white;
+
+}
+
+main p {
+    color: white;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}

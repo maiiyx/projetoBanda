@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+html{
+    font-size: 61.5%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background:#0673b6;
+    justify-content: space-between;
+}
+nav img{
+    width: 20vw;
+}
+nav a{
+    font-size: 2.0rem;
+    margin: 2rem;
+    padding: 2rem;
+    color: #FFF;
+    text-decoration: none;
+}
+header{
+    height: 100vh;
+    color: #FFF;
+    background: #0673b6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+header h1{
+    font-size: 4.6rem;
+}
+main h1{
+    font-size: 3.6rem;
+    margin-top: 5rem;
+}
+main figure{
+    display: flex;
+    text-align:left;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+main figure img{
+    margin-top: -5rem;
+    justify-content: center;
+    width: 50vw;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section p{
+    width: 75vw;
+    font-size: 2.6rem;
+    text-align: justify;
+    margin-top: 5rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article p{
+    width: 75vw;
+    font-size: 2.6rem;
+    text-align: justify;
+    margin-top: 5rem;
+}
+article .audios{
+    margin-top: 5rem;
+    gap: 10rem;
+    display: flex;
+    align-items: center;
+}
+article .audios .audio{
+    display: flex;
+    flex-direction: column;
+}
+.curtida-audio{
+    gap: 1rem;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: #F1F1F1;
+}
+#curtida{
+    border: none;
+}
+article .videos{
+    gap: 10rem;
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+}
+article .video{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+article .video span{
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.area-video{
+    color: #FFF;
+    width: 100vw;
+    background: #0673b6;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (max-width: 820px) {
+    nav a{
+        display: flex;
+        flex-direction: column;
+    }
+    nav img{
+        width: 50vw;
+    }
+    main figure img{
+        margin-top: -5rem;
+        justify-content: center;
+        width: 50vw;
+    }
+    .audios{
+        display: flex;
+        flex-direction: column;
+    }
+    .videos{
+        display: flex;
+    }
+}
